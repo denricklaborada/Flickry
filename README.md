@@ -1,6 +1,6 @@
 # Flickry
 
-Flickry is an app that allows you to search for images in Flickr. The first 25 items will be shown in the list. It support pagination such that it automatically requests for the next page when the scroll has reached the end therefore allows for endless scrolling. The app utilizes the Coordinator pattern.
+Flickry is an app that allows you to search for images in Flickr. The first 25 items will be shown in the list. It supports pagination such that it automatically requests for the next page when the scroll has reached the end therefore allows for endless scrolling. The app utilizes the Coordinator pattern.
 
 ## 3rd Party Libraries
 Most of the 3rd party libraries are installed using Swift Package Manager (SPM) for faster build times and to reduce the project file size since it will be uploaded to a GitHub repository.
