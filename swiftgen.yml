@@ -1,0 +1,12 @@
+xcassets:
+    inputs: Flickry
+    outputs:
+        templateName: swift4
+        output: Flickry/SwiftGen/Assets.swift
+ib:
+    inputs: Flickry
+    outputs:
+        - templateName: segues-swift4
+          output: Flickry/SwiftGen/Segues.swift
+        - templateName: scenes-swift4
+          output: Flickry/SwiftGen/Scenes.swift

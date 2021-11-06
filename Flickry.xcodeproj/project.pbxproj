@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2546547BBDDD6A669ACA7393 /* Pods_Flickry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7364EA78B697BC6AA43777E9 /* Pods_Flickry.framework */; };
 		390F73BE27361FEE0053F5B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73BD27361FEE0053F5B9 /* AppDelegate.swift */; };
 		390F73C027361FEE0053F5B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73BF27361FEE0053F5B9 /* SceneDelegate.swift */; };
 		390F73C227361FEE0053F5B9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73C127361FEE0053F5B9 /* MainViewController.swift */; };
 		390F73C527361FEE0053F5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390F73C327361FEE0053F5B9 /* Main.storyboard */; };
 		390F73C727361FF20053F5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390F73C627361FF20053F5B9 /* Assets.xcassets */; };
 		390F73CA27361FF20053F5B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390F73C827361FF20053F5B9 /* LaunchScreen.storyboard */; };
-		390F73D3273621E00053F5B9 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 390F73D2273621E00053F5B9 /* Moya */; };
-		390F73D6273622110053F5B9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 390F73D5273622110053F5B9 /* Kingfisher */; };
-		390F73D9273622900053F5B9 /* Reusable in Frameworks */ = {isa = PBXBuildFile; productRef = 390F73D8273622900053F5B9 /* Reusable */; };
-		390F73DC273622D40053F5B9 /* Closures in Frameworks */ = {isa = PBXBuildFile; productRef = 390F73DB273622D40053F5B9 /* Closures */; };
+		390F73D3273621E00053F5B9 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 390F73D2273621E00053F5B9 /* SwiftPackageProductDependency */; };
+		390F73D6273622110053F5B9 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 390F73D5273622110053F5B9 /* SwiftPackageProductDependency */; };
+		390F73D9273622900053F5B9 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 390F73D8273622900053F5B9 /* SwiftPackageProductDependency */; };
+		390F73DC273622D40053F5B9 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 390F73DB273622D40053F5B9 /* SwiftPackageProductDependency */; };
 		390F73DE273623320053F5B9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73DD273623320053F5B9 /* AppCoordinator.swift */; };
 		390F73E1273623660053F5B9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73E0273623660053F5B9 /* Coordinator.swift */; };
 		390F73E6273624260053F5B9 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73E5273624260053F5B9 /* MainCoordinator.swift */; };
@@ -36,6 +37,9 @@
 		390F73E0273623660053F5B9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		390F73E5273624260053F5B9 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		390F73E7273625E50053F5B9 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		7364EA78B697BC6AA43777E9 /* Pods_Flickry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flickry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0810C855DD649445ADBB1E /* Pods-Flickry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flickry.debug.xcconfig"; path = "Target Support Files/Pods-Flickry/Pods-Flickry.debug.xcconfig"; sourceTree = "<group>"; };
+		F6AF39EC3D61B4567F657E08 /* Pods-Flickry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flickry.release.xcconfig"; path = "Target Support Files/Pods-Flickry/Pods-Flickry.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,10 +47,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				390F73DC273622D40053F5B9 /* Closures in Frameworks */,
-				390F73D6273622110053F5B9 /* Kingfisher in Frameworks */,
-				390F73D3273621E00053F5B9 /* Moya in Frameworks */,
-				390F73D9273622900053F5B9 /* Reusable in Frameworks */,
+				390F73DC273622D40053F5B9 /* BuildFile in Frameworks */,
+				390F73D6273622110053F5B9 /* BuildFile in Frameworks */,
+				390F73D3273621E00053F5B9 /* BuildFile in Frameworks */,
+				390F73D9273622900053F5B9 /* BuildFile in Frameworks */,
+				2546547BBDDD6A669ACA7393 /* Pods_Flickry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +63,8 @@
 			children = (
 				390F73BC27361FEE0053F5B9 /* Flickry */,
 				390F73BB27361FEE0053F5B9 /* Products */,
+				F38A67FEF786B72D4E8E7E6F /* Pods */,
+				6957197A13FA51812D4D228E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +79,7 @@
 		390F73BC27361FEE0053F5B9 /* Flickry */ = {
 			isa = PBXGroup;
 			children = (
+				390F73E9273627090053F5B9 /* SwiftGen */,
 				390F73E4273624170053F5B9 /* Coordinators */,
 				390F73E3273623ED0053F5B9 /* Views */,
 				390F73E2273623D30053F5B9 /* Controllers */,
@@ -119,6 +127,31 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
+		390F73E9273627090053F5B9 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		6957197A13FA51812D4D228E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7364EA78B697BC6AA43777E9 /* Pods_Flickry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F38A67FEF786B72D4E8E7E6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E0810C855DD649445ADBB1E /* Pods-Flickry.debug.xcconfig */,
+				F6AF39EC3D61B4567F657E08 /* Pods-Flickry.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 390F73CE27361FF20053F5B9 /* Build configuration list for PBXNativeTarget "Flickry" */;
 			buildPhases = (
+				34B904366FFA6CD76F18FF19 /* [CP] Check Pods Manifest.lock */,
 				390F73B627361FEE0053F5B9 /* Sources */,
 				390F73B727361FEE0053F5B9 /* Frameworks */,
 				390F73B827361FEE0053F5B9 /* Resources */,
@@ -136,10 +170,10 @@
 			);
 			name = Flickry;
 			packageProductDependencies = (
-				390F73D2273621E00053F5B9 /* Moya */,
-				390F73D5273622110053F5B9 /* Kingfisher */,
-				390F73D8273622900053F5B9 /* Reusable */,
-				390F73DB273622D40053F5B9 /* Closures */,
+				390F73D2273621E00053F5B9 /* SwiftPackageProductDependency */,
+				390F73D5273622110053F5B9 /* SwiftPackageProductDependency */,
+				390F73D8273622900053F5B9 /* SwiftPackageProductDependency */,
+				390F73DB273622D40053F5B9 /* SwiftPackageProductDependency */,
 			);
 			productName = Flickry;
 			productReference = 390F73BA27361FEE0053F5B9 /* Flickry.app */;
@@ -169,10 +203,10 @@
 			);
 			mainGroup = 390F73B127361FEE0053F5B9;
 			packageReferences = (
-				390F73D1273621E00053F5B9 /* XCRemoteSwiftPackageReference "Moya" */,
-				390F73D4273622110053F5B9 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				390F73D7273622900053F5B9 /* XCRemoteSwiftPackageReference "Reusable" */,
-				390F73DA273622D40053F5B9 /* XCRemoteSwiftPackageReference "Closures" */,
+				390F73D1273621E00053F5B9 /* RemoteSwiftPackageReference */,
+				390F73D4273622110053F5B9 /* RemoteSwiftPackageReference */,
+				390F73D7273622900053F5B9 /* RemoteSwiftPackageReference */,
+				390F73DA273622D40053F5B9 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 390F73BB27361FEE0053F5B9 /* Products */;
 			projectDirPath = "";
@@ -195,6 +229,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34B904366FFA6CD76F18FF19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flickry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		390F73B627361FEE0053F5B9 /* Sources */ = {
@@ -351,6 +410,7 @@
 		};
 		390F73CF27361FF20053F5B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0810C855DD649445ADBB1E /* Pods-Flickry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -370,6 +430,7 @@
 		};
 		390F73D027361FF20053F5B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AF39EC3D61B4567F657E08 /* Pods-Flickry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -411,7 +472,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		390F73D1273621E00053F5B9 /* XCRemoteSwiftPackageReference "Moya" */ = {
+		390F73D1273621E00053F5B9 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya.git";
 			requirement = {
@@ -419,7 +480,7 @@
 				version = 15.0.0;
 			};
 		};
-		390F73D4273622110053F5B9 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+		390F73D4273622110053F5B9 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
@@ -427,7 +488,7 @@
 				version = 7.1.1;
 			};
 		};
-		390F73D7273622900053F5B9 /* XCRemoteSwiftPackageReference "Reusable" */ = {
+		390F73D7273622900053F5B9 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AliSoftware/Reusable.git";
 			requirement = {
@@ -435,7 +496,7 @@
 				version = 4.1.2;
 			};
 		};
-		390F73DA273622D40053F5B9 /* XCRemoteSwiftPackageReference "Closures" */ = {
+		390F73DA273622D40053F5B9 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/vhesener/Closures";
 			requirement = {
@@ -446,24 +507,24 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		390F73D2273621E00053F5B9 /* Moya */ = {
+		390F73D2273621E00053F5B9 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 390F73D1273621E00053F5B9 /* XCRemoteSwiftPackageReference "Moya" */;
+			package = 390F73D1273621E00053F5B9 /* RemoteSwiftPackageReference */;
 			productName = Moya;
 		};
-		390F73D5273622110053F5B9 /* Kingfisher */ = {
+		390F73D5273622110053F5B9 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 390F73D4273622110053F5B9 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			package = 390F73D4273622110053F5B9 /* RemoteSwiftPackageReference */;
 			productName = Kingfisher;
 		};
-		390F73D8273622900053F5B9 /* Reusable */ = {
+		390F73D8273622900053F5B9 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 390F73D7273622900053F5B9 /* XCRemoteSwiftPackageReference "Reusable" */;
+			package = 390F73D7273622900053F5B9 /* RemoteSwiftPackageReference */;
 			productName = Reusable;
 		};
-		390F73DB273622D40053F5B9 /* Closures */ = {
+		390F73DB273622D40053F5B9 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 390F73DA273622D40053F5B9 /* XCRemoteSwiftPackageReference "Closures" */;
+			package = 390F73DA273622D40053F5B9 /* RemoteSwiftPackageReference */;
 			productName = Closures;
 		};
 /* End XCSwiftPackageProductDependency section */
