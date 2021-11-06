@@ -9,7 +9,7 @@ Most of the 3rd party libraries are installed using Swift Package Manager (SPM) 
 - Reusable (SPM) - For easier, cleaner, and type-safe instantiation of reusable views
 - Closures (SPM) - Allows for quicker implementation of delegates, data sourcing, and target actions
 - Kingfisher (SPM) - Allows for seamless fetching of images from the web
-- SwiftGen (CocoaPods) - For type-safe code when using localized strings, storyboard scenes, assets, and etc. CocoaPods was used for this since scripts in build phases aren't supported yet for SPM.
+- SwiftGen (CocoaPods) - For type-safe code when using storyboard scenes, assets, and etc. CocoaPods was used for this since scripts in build phases aren't supported yet for SPM.
 
 ## Architecture
 The app was built using MVC since this is a simple application with a very limited timeframe and using other design patterns like MVVM will consume more time.
