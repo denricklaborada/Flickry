@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		390F73BE27361FEE0053F5B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73BD27361FEE0053F5B9 /* AppDelegate.swift */; };
 		390F73C027361FEE0053F5B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73BF27361FEE0053F5B9 /* SceneDelegate.swift */; };
-		390F73C227361FEE0053F5B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73C127361FEE0053F5B9 /* ViewController.swift */; };
+		390F73C227361FEE0053F5B9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73C127361FEE0053F5B9 /* MainViewController.swift */; };
 		390F73C527361FEE0053F5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390F73C327361FEE0053F5B9 /* Main.storyboard */; };
 		390F73C727361FF20053F5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390F73C627361FF20053F5B9 /* Assets.xcassets */; };
 		390F73CA27361FF20053F5B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390F73C827361FF20053F5B9 /* LaunchScreen.storyboard */; };
+		390F73D3273621E00053F5B9 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 390F73D2273621E00053F5B9 /* Moya */; };
+		390F73D6273622110053F5B9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 390F73D5273622110053F5B9 /* Kingfisher */; };
+		390F73D9273622900053F5B9 /* Reusable in Frameworks */ = {isa = PBXBuildFile; productRef = 390F73D8273622900053F5B9 /* Reusable */; };
+		390F73DC273622D40053F5B9 /* Closures in Frameworks */ = {isa = PBXBuildFile; productRef = 390F73DB273622D40053F5B9 /* Closures */; };
+		390F73DE273623320053F5B9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73DD273623320053F5B9 /* AppCoordinator.swift */; };
+		390F73E1273623660053F5B9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73E0273623660053F5B9 /* Coordinator.swift */; };
+		390F73E6273624260053F5B9 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73E5273624260053F5B9 /* MainCoordinator.swift */; };
+		390F73E8273625E50053F5B9 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F73E7273625E50053F5B9 /* StoryboardInstantiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		390F73BA27361FEE0053F5B9 /* Flickry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flickry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		390F73BD27361FEE0053F5B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		390F73BF27361FEE0053F5B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		390F73C127361FEE0053F5B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		390F73C127361FEE0053F5B9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		390F73C427361FEE0053F5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		390F73C627361FF20053F5B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		390F73C927361FF20053F5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		390F73CB27361FF20053F5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390F73DD273623320053F5B9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		390F73E0273623660053F5B9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		390F73E5273624260053F5B9 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		390F73E7273625E50053F5B9 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				390F73DC273622D40053F5B9 /* Closures in Frameworks */,
+				390F73D6273622110053F5B9 /* Kingfisher in Frameworks */,
+				390F73D3273621E00053F5B9 /* Moya in Frameworks */,
+				390F73D9273622900053F5B9 /* Reusable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,51 @@
 		390F73BC27361FEE0053F5B9 /* Flickry */ = {
 			isa = PBXGroup;
 			children = (
+				390F73E4273624170053F5B9 /* Coordinators */,
+				390F73E3273623ED0053F5B9 /* Views */,
+				390F73E2273623D30053F5B9 /* Controllers */,
+				390F73DF2736235D0053F5B9 /* Protocols */,
 				390F73BD27361FEE0053F5B9 /* AppDelegate.swift */,
 				390F73BF27361FEE0053F5B9 /* SceneDelegate.swift */,
-				390F73C127361FEE0053F5B9 /* ViewController.swift */,
-				390F73C327361FEE0053F5B9 /* Main.storyboard */,
 				390F73C627361FF20053F5B9 /* Assets.xcassets */,
 				390F73C827361FF20053F5B9 /* LaunchScreen.storyboard */,
 				390F73CB27361FF20053F5B9 /* Info.plist */,
 			);
 			path = Flickry;
+			sourceTree = "<group>";
+		};
+		390F73DF2736235D0053F5B9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				390F73E0273623660053F5B9 /* Coordinator.swift */,
+				390F73E7273625E50053F5B9 /* StoryboardInstantiable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		390F73E2273623D30053F5B9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				390F73C127361FEE0053F5B9 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		390F73E3273623ED0053F5B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				390F73C327361FEE0053F5B9 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		390F73E4273624170053F5B9 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				390F73DD273623320053F5B9 /* AppCoordinator.swift */,
+				390F73E5273624260053F5B9 /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +135,12 @@
 			dependencies = (
 			);
 			name = Flickry;
+			packageProductDependencies = (
+				390F73D2273621E00053F5B9 /* Moya */,
+				390F73D5273622110053F5B9 /* Kingfisher */,
+				390F73D8273622900053F5B9 /* Reusable */,
+				390F73DB273622D40053F5B9 /* Closures */,
+			);
 			productName = Flickry;
 			productReference = 390F73BA27361FEE0053F5B9 /* Flickry.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +168,12 @@
 				Base,
 			);
 			mainGroup = 390F73B127361FEE0053F5B9;
+			packageReferences = (
+				390F73D1273621E00053F5B9 /* XCRemoteSwiftPackageReference "Moya" */,
+				390F73D4273622110053F5B9 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				390F73D7273622900053F5B9 /* XCRemoteSwiftPackageReference "Reusable" */,
+				390F73DA273622D40053F5B9 /* XCRemoteSwiftPackageReference "Closures" */,
+			);
 			productRefGroup = 390F73BB27361FEE0053F5B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				390F73C227361FEE0053F5B9 /* ViewController.swift in Sources */,
+				390F73DE273623320053F5B9 /* AppCoordinator.swift in Sources */,
+				390F73E6273624260053F5B9 /* MainCoordinator.swift in Sources */,
+				390F73C227361FEE0053F5B9 /* MainViewController.swift in Sources */,
+				390F73E1273623660053F5B9 /* Coordinator.swift in Sources */,
+				390F73E8273625E50053F5B9 /* StoryboardInstantiable.swift in Sources */,
 				390F73BE27361FEE0053F5B9 /* AppDelegate.swift in Sources */,
 				390F73C027361FEE0053F5B9 /* SceneDelegate.swift in Sources */,
 			);
@@ -341,6 +409,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		390F73D1273621E00053F5B9 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.0.0;
+			};
+		};
+		390F73D4273622110053F5B9 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = exactVersion;
+				version = 7.1.1;
+			};
+		};
+		390F73D7273622900053F5B9 /* XCRemoteSwiftPackageReference "Reusable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/Reusable.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.1.2;
+			};
+		};
+		390F73DA273622D40053F5B9 /* XCRemoteSwiftPackageReference "Closures" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vhesener/Closures";
+			requirement = {
+				kind = exactVersion;
+				version = 0.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		390F73D2273621E00053F5B9 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 390F73D1273621E00053F5B9 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		390F73D5273622110053F5B9 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 390F73D4273622110053F5B9 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		390F73D8273622900053F5B9 /* Reusable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 390F73D7273622900053F5B9 /* XCRemoteSwiftPackageReference "Reusable" */;
+			productName = Reusable;
+		};
+		390F73DB273622D40053F5B9 /* Closures */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 390F73DA273622D40053F5B9 /* XCRemoteSwiftPackageReference "Closures" */;
+			productName = Closures;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 390F73B227361FEE0053F5B9 /* Project object */;
 }
