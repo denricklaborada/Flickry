@@ -67,7 +67,12 @@ class ResultsViewController: UIViewController {
     // MARK: - Setup
     
     private func setup() {
+        setupNavigationBar()
         setupCollectionView()
+    }
+    
+    private func setupNavigationBar() {
+        title = searchString
     }
     
     private func setupCollectionView() {
