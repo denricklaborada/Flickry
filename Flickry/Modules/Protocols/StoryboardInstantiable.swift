@@ -7,6 +7,7 @@
 
 import UIKit
 
+// for cleaner instantiation of storyboard scenes
 protocol StoryboardInstantiable {
     associatedtype Input
     associatedtype Output

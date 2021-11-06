@@ -16,10 +16,14 @@ class MainCoordinator: Coordinator {
     }
     
     func start() {
-        
+        let controller = MainViewController.generateFromStoryboard()
+        controller.coordinator = self
+        navigationController.pushViewController(controller, animated: false)
     }
     
-    func showSearchResults() {
-        
+    func showSearchResults(searchString: String) {
+        let controller = ResultsViewController.generateFromStoryboard(input: .init(searchString: searchString))
+        controller.coordinator = self
+        navigationController.pushViewController(controller, animated: true)
     }
 }
